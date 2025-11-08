@@ -17,3 +17,7 @@ service rpcd restart
 opkg update ; opkg install kmod-mt76-connac kmod-mt76-core kmod-mt7603 kmod-mt7615-common kmod-mt7615e kmod-mt7663-firmware-ap kmod-mt76x02-common kmod-mt76x2 kmod-mt76x2-common
 
 ```
+```bash
+apk add --no-cache build-base libbsd-dev zlib-dev libcap-dev libnetfilter_queue-dev libnfnetlink-dev linux-headers libmnl-dev
+
+```
